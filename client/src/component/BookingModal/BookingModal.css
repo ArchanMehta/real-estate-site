@@ -1,0 +1,36 @@
+.date-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height:9rem;
+  width: 18rem;
+  border-radius: 4px;
+  gap: 1.5rem;
+  background-color: rgba(240, 248, 255, 0.897);
+  padding: 5em;
+}
+
+.date-container .date input {
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.712);
+  color: black; 
+  padding: 0.5rem;
+    width: 200px; 
+  text-align: center;
+}
+
+ .date-container  .button {
+  transition: all 0.3s ease-in;
+  margin-top: 1rem;
+  color: white;
+  width: 9rem;
+  text-transform: capitalize;
+}

@@ -1,0 +1,62 @@
+button {
+  border: 1px solid inherit;
+  padding: 0;
+}
+.main-cnt {
+  cursor: pointer;
+}
+
+img.m-11f8ac07.mantine-Avatar-image {
+  width: 5vh;
+  border-radius: 20vh;
+}
+
+.menu-list {
+  position: absolute;
+  top: 77px;
+  right: 15px;
+  z-index: 3;
+  background: white;
+  color: black;
+  list-style-type: none;
+  padding: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1vh;
+  border-radius: 5px;
+}
+.menu-list:hover {
+  transform: scale(1.04);
+  transition: 0.2s all ease-in-out;
+}
+
+.menu-list > li:hover {
+  transform: scale(1.1);
+  transition: 0.2s all ease-in-out;
+  color: var(--blue);
+  font-weight: 500;
+  font-size: medium;
+}
+
+.dropdown-container {
+  position: relative;
+  height: 5vh;
+  width: 3vh;
+}
+
+.dropdown-container > .Item {
+  height: 5vh;
+  width: 3vh;
+
+  position: absolute;
+}
+
+.dropdown {
+  position: absolute;
+  width: 7vh;
+  height: 7vh;
+  background-color: white;
+  color: antiquewhite;
+}
