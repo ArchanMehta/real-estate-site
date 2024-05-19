@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from "../component/hero/hero";
+import Hero from "../component/Hero/Hero"
 import Header from "../component/Header/Header";
 import Companies from "../component/companies/Companies";
 import Residencies from "../component/Residencies/Residencies";
