@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import { validateString } from "../../utils/common";
 import Map from "../Map/Map";
-import useCountries from "../../hooks/UseCountries";
+import useCountries from "../../hooks/useCountries";
 
 const AddLocation = ({
   propertyDetails,
