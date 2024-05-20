@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Avatar, MantineProvider, List, ListItem, Text } from '@mantine/core';
+import { Avatar, MantineProvider, List, ListItem, Text } from "@mantine/core";
 import { useNavigate } from "react-router-dom";
 import "./ProfileMenu.css";
 

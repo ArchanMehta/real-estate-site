@@ -25,7 +25,7 @@ const Header = () => {
       setModalOpened(true);
     } else {
       // Show login popup if user is not authenticated
-      loginWithPopup();
+      loginWithRedirect();
     }
   };
 
