@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
-import {MantineProvider} from "@mantine/core"
+import { MantineProvider } from "@mantine/core";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -12,7 +12,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         domain="dev-m6u5lib0i2h5jnpi.us.auth0.com"
         clientId="JgUIT3LgbNDG7p1D4rMfqe9e2cIFxkC3"
         authorizationParams={{
-          redirect_uri: "http://localhost:5173/",
+          redirect_uri:
+            "https://real-estate-site-ej7vmjnfq-kings-projects-6922eed5.vercel.app/",
         }}
         audience="http://localhost:8000"
         scope="openid profile email"
