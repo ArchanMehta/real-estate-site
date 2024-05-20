@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         clientId="JgUIT3LgbNDG7p1D4rMfqe9e2cIFxkC3"
         authorizationParams={{
           redirect_uri:
-            "https://real-estate-site-b15ujhw6j-kings-projects-6922eed5.vercel.app/",
+            "https://real-estate-site-b15ujhw6j-kings-projects-6922eed5.vercel.app",
         }}
         audience="http://localhost:8000"
         scope="openid profile email"
