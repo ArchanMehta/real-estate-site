@@ -6,10 +6,6 @@ import UserDetailContext from "../../context/UserDetailContext";
 import { toFav }  from "../../utils/api";
 import { checkFavourites,  updateFavourites } from "../../utils/common";
 import useAuthCheck from "../../hooks/useAuthCheck";
-<<<<<<< HEAD
-
-=======
->>>>>>> 163e5de71ca359d1fede333684ed05fd76b4c117
 
 const Heart = ({ id }) => {
   const [heartColor, setHeartColor] = useState("white");
