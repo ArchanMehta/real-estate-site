@@ -11,7 +11,7 @@ import useAuthCheck from "../../hooks/useAuthCheck.jsx";
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const [modalOpened, setModalOpened] = useState(false);
-  const { loginWithPopup, isAuthenticated, user, logout } = useAuth0();
+  const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
   const { validateLogin } = useAuthCheck();
 
   const getMenuStyles = (menuOpened) => {
@@ -54,7 +54,7 @@ const Header = () => {
             </div>
 
             {!isAuthenticated ? (
-              <button className="button" onClick={loginWithPopup}>
+              <button className="button" onClick={loginWithRedirect}>
                 Login
               </button>
             ) : (
