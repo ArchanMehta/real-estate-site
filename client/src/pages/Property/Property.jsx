@@ -10,7 +10,7 @@ import { MdKingBed, MdLocationPin, MdMeetingRoom } from "react-icons/md";
 import { FaShower } from "react-icons/fa";
 import Map from "../../component/Map/Map.jsx";
 import { useAuth0 } from "@auth0/auth0-react";
-import useAuthCheck from "../../hooks/UseAuthCheck.jsx";
+import useAuthCheck from "../../hooks/useAuthCheck.jsx";
 import BookingModal from "../../component/BookingModal/BookingModal.jsx";
 import { MantineProvider } from "@mantine/core";
 import UserDetailContext from "../../context/UserDetailContext";
@@ -106,7 +106,8 @@ const Property = () => {
                   {""}
                   {data?.city}
                   {""}
-                  {data?.country}{""}
+                  {data?.country}
+                  {""}
                 </span>
               </div>
 

@@ -13,6 +13,7 @@ import UploadImage from "../UploadImage/UploadImage";
 import Facilities from "../Facilities/Facilities";
 import BasicDetails from "../BasicDetails/BasicDetails";
 import { useAuth0 } from "@auth0/auth0-react";
+
 const AddPropertyModal = ({ opened, setOpened }) => {
   const steps = ["Location", "Images", "Basics", "Final Submit"];
   const [activeStep, setActiveStep] = useState(0);
